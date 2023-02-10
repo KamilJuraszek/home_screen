@@ -74,7 +74,8 @@ class _MyHomePageState extends State<MyHomePage> {
                             'Company Birthday',
                             style: TextStyle(
                                 fontSize: 15,
-                                color: Colors.black),
+                                color: Colors.black,
+                              fontWeight: FontWeight.bold),
                           ),
                           Text(
                             'Jubileusz firmy to święto, celebracja rocznicy założenia firmy. Najbardziej prestiżowe są jubileusze 10-, 20-, 30-lecia i więcej firmy.',
@@ -110,7 +111,8 @@ class _MyHomePageState extends State<MyHomePage> {
                             'Company Birthday',
                             style: TextStyle(
                                 fontSize: 15,
-                                color: Colors.black),
+                                color: Colors.black,
+                                fontWeight: FontWeight.bold),
                           ),
                           Text(
                             'Jubileusz firmy to święto, celebracja rocznicy założenia firmy. Najbardziej prestiżowe są jubileusze 10-, 20-, 30-lecia i więcej firmy.',
@@ -146,7 +148,8 @@ class _MyHomePageState extends State<MyHomePage> {
                             'Company Birthday',
                             style: TextStyle(
                                 fontSize: 15,
-                                color: Colors.black),
+                                color: Colors.black,
+                                fontWeight: FontWeight.bold),
                           ),
                           Text(
                             'Jubileusz firmy to święto, celebracja rocznicy założenia firmy. Najbardziej prestiżowe są jubileusze 10-, 20-, 30-lecia i więcej firmy.',
@@ -182,7 +185,8 @@ class _MyHomePageState extends State<MyHomePage> {
                             'Company Birthday',
                             style: TextStyle(
                                 fontSize: 15,
-                                color: Colors.black),
+                                color: Colors.black,
+                                fontWeight: FontWeight.bold),
                           ),
                           Text(
                             'Jubileusz firmy to święto, celebracja rocznicy założenia firmy. Najbardziej prestiżowe są jubileusze 10-, 20-, 30-lecia i więcej firmy.',
