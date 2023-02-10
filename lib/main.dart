@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Home Screen',
+      theme: ThemeData(fontFamily: 'Spoof'),
       home: const MyHomePage(title: 'Home'),
     );
   }
@@ -112,7 +113,8 @@ class _MyHomePageState extends State<MyHomePage> {
                             style: TextStyle(
                                 fontSize: 15,
                                 color: Colors.black,
-                                fontWeight: FontWeight.bold),
+                                fontWeight: FontWeight.bold,
+                            ),
                           ),
                           Text(
                             'Jubileusz firmy to święto, celebracja rocznicy założenia firmy. Najbardziej prestiżowe są jubileusze 10-, 20-, 30-lecia i więcej firmy.',
