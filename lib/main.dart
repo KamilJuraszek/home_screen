@@ -10,10 +10,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Home Screen',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
       home: const MyHomePage(title: 'Home'),
     );
   }
@@ -36,9 +34,11 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       body: SingleChildScrollView(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [Padding(
             padding: EdgeInsets.only(top: 100),
-            child: Text(
+            child:
+            Text(
               'Welcome',
               style: TextStyle(
                 fontSize: 40),
@@ -47,7 +47,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Text(
               'home',
                 style: TextStyle(
-                  color: Color(0xff9ea8c6),
+                    color: Color(0xff9ea8c6),
                 fontWeight: FontWeight.bold,
                 fontSize: 40),
             ),
@@ -58,11 +58,141 @@ class _MyHomePageState extends State<MyHomePage> {
               children: [
                 Container(
                   width: 350,
-                  height: 80,
+                  height: 150,
                   decoration: BoxDecoration(
                      borderRadius: BorderRadius.circular(24.0),
                     color: Color(0xfff2f2f2),
                   ),
+                  child:
+                    Padding(
+                      padding: EdgeInsets.only(left:20, top:10, bottom: 5, right: 10),
+                      child: Column(
+                        mainAxisSize: MainAxisSize.min,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            'Company Birthday',
+                            style: TextStyle(
+                                fontSize: 15,
+                                color: Colors.black),
+                          ),
+                          Text(
+                            'Jubileusz firmy to święto, celebracja rocznicy założenia firmy. Najbardziej prestiżowe są jubileusze 10-, 20-, 30-lecia i więcej firmy.',
+                            style: TextStyle(
+                                fontSize: 16,
+                                color: Colors.black),
+                          ),
+                        ],
+                      ),
+                    ),
+                ),
+            ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Padding(padding: EdgeInsets.only(top: 200),),
+                Container(
+                    width: 350,
+                    height: 150,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(24.0),
+                      color: Color(0xfff2f2f2),
+                    ),
+                    child:
+                    Padding(
+                      padding: EdgeInsets.only(left:20, top:10, bottom: 5, right: 10),
+                      child: Column(
+                        mainAxisSize: MainAxisSize.min,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            'Company Birthday',
+                            style: TextStyle(
+                                fontSize: 15,
+                                color: Colors.black),
+                          ),
+                          Text(
+                            'Jubileusz firmy to święto, celebracja rocznicy założenia firmy. Najbardziej prestiżowe są jubileusze 10-, 20-, 30-lecia i więcej firmy.',
+                            style: TextStyle(
+                                fontSize: 16,
+                                color: Colors.black),
+                          ),
+                        ],
+                      ),
+                    )
+                ),
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Padding(padding: EdgeInsets.only(top: 150),),
+                Container(
+                    width: 350,
+                    height: 150,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(24.0),
+                      color: Color(0xfff2f2f2),
+                    ),
+                    child:
+                    Padding(
+                      padding: EdgeInsets.only(left:20, top:10, bottom: 5, right: 10),
+                      child: Column(
+                        mainAxisSize: MainAxisSize.min,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            'Company Birthday',
+                            style: TextStyle(
+                                fontSize: 15,
+                                color: Colors.black),
+                          ),
+                          Text(
+                            'Jubileusz firmy to święto, celebracja rocznicy założenia firmy. Najbardziej prestiżowe są jubileusze 10-, 20-, 30-lecia i więcej firmy.',
+                            style: TextStyle(
+                                fontSize: 16,
+                                color: Colors.black),
+                          ),
+                        ],
+                      ),
+                    )
+                ),
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Padding(padding: EdgeInsets.only(top: 200),),
+                Container(
+                    width: 350,
+                    height: 150,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(24.0),
+                      color: Color(0xfff2f2f2),
+                    ),
+                    child:
+                    Padding(
+                      padding: EdgeInsets.only(left:20, top:10, bottom: 5, right: 10),
+                      child: Column(
+                        mainAxisSize: MainAxisSize.min,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            'Company Birthday',
+                            style: TextStyle(
+                                fontSize: 15,
+                                color: Colors.black),
+                          ),
+                          Text(
+                            'Jubileusz firmy to święto, celebracja rocznicy założenia firmy. Najbardziej prestiżowe są jubileusze 10-, 20-, 30-lecia i więcej firmy.',
+                            style: TextStyle(
+                                fontSize: 16,
+                                color: Colors.black),
+                          ),
+                        ],
+                      ),
+                    )
                 ),
               ],
             ),
