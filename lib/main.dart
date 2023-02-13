@@ -88,8 +88,12 @@ class _MyHomePageState extends State<MyHomePage> {
                         Text(
                           'Company Birthday',
                           style: TextStyle(
+                              shadows: [Shadow(offset: Offset(0, -5), color: Colors.black),],
+                              decoration: TextDecoration.underline,
+                              decorationStyle: TextDecorationStyle.solid,
+                              decorationColor: Colors.black,
                               fontSize: 15,
-                              color: Colors.black,
+                              color: Colors.transparent,
                               fontWeight: FontWeight.bold),
                         ),
                         Text(
@@ -125,8 +129,12 @@ class _MyHomePageState extends State<MyHomePage> {
                           Text(
                             'Company Birthday',
                             style: TextStyle(
+                              shadows: [Shadow(offset: Offset(0, -5), color: Colors.black),],
+                              decoration: TextDecoration.underline,
+                              decorationStyle: TextDecorationStyle.solid,
+                              decorationColor: Colors.black,
                               fontSize: 15,
-                              color: Colors.black,
+                              color: Colors.transparent,
                               fontWeight: FontWeight.bold,
                             ),
                           ),
@@ -163,8 +171,12 @@ class _MyHomePageState extends State<MyHomePage> {
                           Text(
                             'Company Birthday',
                             style: TextStyle(
+                                shadows: [Shadow(offset: Offset(0, -5), color: Colors.black),],
+                                decoration: TextDecoration.underline,
+                                decorationStyle: TextDecorationStyle.solid,
+                                decorationColor: Colors.black,
                                 fontSize: 15,
-                                color: Colors.black,
+                                color: Colors.transparent,
                                 fontWeight: FontWeight.bold),
                           ),
                           Text(
@@ -200,8 +212,12 @@ class _MyHomePageState extends State<MyHomePage> {
                           Text(
                             'Company Birthday',
                             style: TextStyle(
+                                shadows: [Shadow(offset: Offset(0, -5), color: Colors.black),],
+                                decoration: TextDecoration.underline,
+                                decorationStyle: TextDecorationStyle.solid,
+                                decorationColor: Colors.black,
                                 fontSize: 15,
-                                color: Colors.black,
+                                color: Colors.transparent,
                                 fontWeight: FontWeight.bold),
                           ),
                           Text(
