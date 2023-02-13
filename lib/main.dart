@@ -47,30 +47,31 @@ class _MyHomePageState extends State<MyHomePage> {
                     mainAxisSize: MainAxisSize.min,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
+                      Padding(
+                        padding: EdgeInsets.only(top: 20 ),),
                       Text(
                         'Welcome',
                         style: TextStyle(
-                            fontSize: 40),
+                            fontSize: 30),
                       ),
                       Text(
                         'home',
                         style: TextStyle(
                             color: Color(0xff9ea8c6),
                             fontWeight: FontWeight.bold,
-                            fontSize: 40),
+                            fontSize: 30),
                       ),
                     ],
-                  ),
+                ),
                 ),
               ],
-
             ),
-
             Padding(
-              padding: EdgeInsets.only(bottom: 20 ),),
+              padding: EdgeInsets.only(bottom: 30 ),),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
+                Padding(padding: EdgeInsets.only(top: 180),),
                 Container(
                   width: 350,
                   height: 150,
@@ -111,7 +112,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Padding(padding: EdgeInsets.only(top: 200),),
+                Padding(padding: EdgeInsets.only(top: 180),),
                 Container(
                     width: 350,
                     height: 150,
@@ -153,7 +154,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Padding(padding: EdgeInsets.only(top: 150),),
+                Padding(padding: EdgeInsets.only(top: 180),),
                 Container(
                     width: 350,
                     height: 150,
@@ -194,7 +195,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Padding(padding: EdgeInsets.only(top: 200),),
+                Padding(padding: EdgeInsets.only(top: 180),),
                 Container(
                     width: 350,
                     height: 150,
