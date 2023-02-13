@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-
+import 'package:google_nav_bar/google_nav_bar.dart';
+import 'package:ionicons/ionicons.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -77,7 +78,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   height: 150,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(24.0),
-                    color: Color(0xfff2f2f2),
+                    color: Color(0xffff0f0f0),
                   ),
                   child:
                   Padding(
@@ -118,7 +119,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     height: 150,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(24.0),
-                      color: Color(0xfff2f2f2),
+                      color: Color(0xffff0f0f0),
                     ),
                     child:
                     Padding(
@@ -160,7 +161,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     height: 150,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(24.0),
-                      color: Color(0xfff2f2f2),
+                      color: Color(0xffff0f0f0),
                     ),
                     child:
                     Padding(
@@ -201,7 +202,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     height: 150,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(24.0),
-                      color: Color(0xfff2f2f2),
+                      color: Color(0xffff0f0f0),
                     ),
                     child:
                     Padding(
@@ -236,6 +237,32 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
+        bottomNavigationBar: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 7.0, vertical: 10),
+          child: GNav(
+            tabBackgroundColor: Color(0xffff0f0f0),
+            gap: 8,
+            padding: EdgeInsets.all(16),
+            tabs: const [
+              GButton(icon:
+              Ionicons.home_outline,
+                text: 'Home',
+              ),
+              GButton(icon:
+              Ionicons.calendar_outline,
+                text: 'Schedule',
+              ),
+              GButton(icon:
+              Ionicons.list_outline,
+                text: 'To Do',
+              ),
+              GButton(icon:
+              Ionicons.person_outline,
+                text: 'Profile',
+              ),
+            ],
+          ),
+        ),
     );
   }
 }
