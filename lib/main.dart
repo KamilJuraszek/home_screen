@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      title: 'Home Screen',
       theme: ThemeData(
           primaryColor: Color(0xff9ea8c6),
           fontFamily: 'Spoof'),
@@ -237,3 +238,4 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
